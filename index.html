@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Booki</title>
          
 	    <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        
         <link rel="stylesheet" type="text/css" href="./css/style.css">
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
         </style>
+        
+        <script src="https://kit.fontawesome.com/528309c352.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -26,12 +29,60 @@
             </header>
 
             <main>
-                <section>
+                <section class="section section-filter">
+                    <h1 class="title-section">Trouver votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+
+                    <div class="search-city-wrapper">
+                        <div class="map-marker-wrapper">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <input class="search-city title-18" type="text" name="search-city" placeholder="Marseille, France">
+                        
+                        <div class="search-button title-18">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <p class="search-button-rechercher">Rechercher</p>
+                        </div>
+                    </div>
+
+                    <div class="filtered-wrapper">
+                        <p class="title-18 filtres-title">Filtres</p>
+
+                        <div class="filtered-items-wrapper">
+                            <div class="filtered-item">
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                <p>Économique</p>
+                            </div>
+
+                            <div class="filtered-item">
+                                <i class="fa-solid fa-person"></i>
+                                <p>Familial</p>
+                            </div>
+
+                            <div class="filtered-item">
+                                <i class="fa-solid fa-heart"></i>
+                                <p>Romantique</p>
+                            </div>
+
+                            <div class="filtered-item">
+                                <i class="fa-solid fa-dog"></i>
+                                <p>Animaux autorisés</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-wrapper">
+                        <div class="info-logo">
+                            <i class="fa-solid fa-info"></i>
+                        </div>
+                        
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
                     
+
                 </section>
             </main>
        </div>
     </body>
-
-    <script src="https://kit.fontawesome.com/28027e0f00.js" crossorigin="anonymous"></script>
 </html>
