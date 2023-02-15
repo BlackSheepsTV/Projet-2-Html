@@ -38,13 +38,18 @@ html,body {
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
-    margin-bottom: 8px;
 }
 
 .title-card {
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
+}
+
+.text-price {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 .title-18 {
@@ -113,6 +118,11 @@ li:hover {
 
 .section-filter {
     padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.section-filter h1 {
+    margin-bottom: 13px;
 }
 
 .search-city-wrapper {
@@ -195,6 +205,7 @@ li:hover {
 
 .filtered-item i {
     margin-right: 10px;
+    color: var(--color-blue);
 }
 
 .filtered-item:hover {
@@ -223,3 +234,84 @@ li:hover {
     font-size: 12px;
     color: var(--color-blue)
 }
+
+/* ----------- SECTION ACCOMODATION ----------- */
+
+/* ----------- most popular ----------- */
+
+.section-accommodation {
+    display: flex;
+    flex-direction: column;
+}
+
+.most-popular-wrapper {
+    background-color: var(--color-grey);
+    padding: 28px 0px 47px 0px;
+}
+
+.most-popular-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-bottom: 26px;
+}
+
+.fa-chart-line {
+    color: var(--color-blue);
+}
+
+.cards-sponsored-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.card-sponsored-wrapper {
+    width: 100%;
+    height: 144px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.card-sponsored-img-wrapper {
+    position: relative;
+    width: 137px;
+    min-width: 137px;
+    height: 144px;
+    border: 5px solid white;
+}
+
+.card-sponsored-img-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.card-text-wrapper {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 10px 12px 15px;
+}
+
+.stars-wrapper {
+    display: flex;
+    color: var(--color-blue);
+}
+
+.stars-wrapper i:nth-last-child(1) {
+    color: var(--color-grey);
+}
+
