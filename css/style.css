@@ -40,6 +40,12 @@ html,body {
     line-height: 26px;
 }
 
+.title-18 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
 .title-card {
     font-size: 16px;
     font-weight: 700;
@@ -62,9 +68,15 @@ h1,h2,h3,p {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* ----------- HEADER ----------- */
 
 header {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,27 +94,33 @@ header {
     cursor: pointer;
 }
 
-nav {
+.nav-header {
     width: 100%;
 }
 
-ul {
+.nav-header ul {
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+.nav-header li {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 23px;
+    flex: 1;
+}
+
+ul {
     margin: 0;
     padding: 0;
 }
 
 li {
-    display: flex;
-    justify-content: center;
     list-style-type: none;
-    padding-bottom: 23px;
-    flex: 1;
 }
 
-li:hover {
+.nav-header li:hover {
     color: var(--color-blue);
     border-bottom: 3px solid var(--color-blue);
     padding-bottom: 20px;
@@ -145,6 +163,7 @@ li:hover {
     justify-content: center;
     align-items: center;
     background-color: var(--color-grey);
+    cursor: pointer;
 }
 
 .search-city {
@@ -164,6 +183,7 @@ li:hover {
     align-items: center;
     color: white;
     background-color: var(--color-blue);
+    cursor: pointer;
 }
 
 .search-button-rechercher {
@@ -204,7 +224,7 @@ li:hover {
 }
 
 .filtered-item i {
-    margin-right: 10px;
+    margin-right: 5px;
     color: var(--color-blue);
 }
 
@@ -388,4 +408,46 @@ li:hover {
 .card-activities-wrapper .card-text-wrapper {
     padding-left: 19px;
     justify-content: center;
+}
+
+/* ----------- FOOTER ----------- */
+
+footer {
+    width: 100%;
+}
+
+.footer-links-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 30px 60px;
+    background-color: var(--color-grey);
+}
+
+.footer-link-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.footer-link-wrapper:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+
+.footer-link-wrapper .title-18 {
+    margin-bottom: 20px;
+}
+
+.footer-link-wrapper a:hover {
+    color: var(--color-blue);
+}
+
+.footer-link-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-link-wrapper li {
+    padding-bottom: 12px;
 }
