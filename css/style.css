@@ -516,7 +516,7 @@ footer {
     /* ----------- filter ----------- */
 
     .section-filter {
-        padding: 0px 72px;
+        padding: 0px 45px;
     }
 
     .filtered-wrapper {
@@ -545,12 +545,12 @@ footer {
 
     .section-accommodation {
         flex-direction: column-reverse;
-        padding: 0px 72px 70px;
+        padding: 0px 45px 70px;
     }
 
     .accommodation-wrapper {
         margin-bottom: 53px;
-        padding: 42px 40px 46px 40px;
+        padding: 42px 32px 46px;
         border-radius: 20px;
         background-color: var(--color-grey);
     }
@@ -566,7 +566,7 @@ footer {
     }
 
     .accommodation-wrapper a {
-        width: 30%;
+        width: 32%;
     }
 
     .accommodation-wrapper .title-18{
@@ -578,7 +578,7 @@ footer {
     /* ----------- most popular ----------- */
 
     .most-popular-wrapper {
-        padding: 34px 40px 48px;
+        padding: 34px 22px 48px;
         border-radius: 20px;
     }
 
@@ -588,13 +588,13 @@ footer {
     }
 
     .cards-sponsored-wrapper a{
-        width: 31%;
+        width: 32%;
     }
 
     /* ----------- activities ----------- */
 
     .section-activities {
-        padding: 0px 72px 69px;
+        padding: 0px 45px 69px;
     }
 
     .section-activities h2 {
@@ -613,7 +613,7 @@ footer {
     /* ----------- FOOTER ----------- */
 
     footer {
-        padding: 0px 72px;
+        padding: 0px 45px;
     }
 
     .footer-links-wrapper {
@@ -652,7 +652,7 @@ footer {
 
     .most-popular-wrapper {
         width: 30%;
-        padding: 41px 40px 34px 37px;
+        padding: 41px 32px 34px;
     }
 
     .cards-sponsored-wrapper {
