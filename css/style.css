@@ -33,10 +33,6 @@ html,body {
     height: 100%;
 }
 
-picture {
-    height: inherit;
-}
-
 /* ----------- TEXT ----------- */
 
 .section h1, .section h2 {
