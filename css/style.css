@@ -473,7 +473,7 @@ footer {
     header {
         flex-direction: row;
         justify-content: space-between;
-        padding: 0px 42px 0px 72px;
+        padding: 0px 45px 0px;
         margin-bottom: 63px;
     }
 
